@@ -7,9 +7,10 @@ gem 'rails', '4.0.0'
 group :development, :test do
   gem 'sqlite3', '1.3.7'
   gem 'rspec-rails', '2.13.1'
+  gem 'erb2haml'
 end
 
-
+gem 'haml-rails'
 gem 'sass-rails', '4.0.0'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.0'
